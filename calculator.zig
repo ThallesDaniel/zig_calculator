@@ -12,7 +12,7 @@ pub fn main() void {
     const prod = num1 * num2;
     const quot = num1 / num2;
 
-    _ = allocator; // Para evitar o erro de constante não utilizada
+    _ = allocator; // Para evitar o erro de constante não utilizada 
 
     stdout.print("Soma: {}\n", .{sum}) catch {};
     stdout.print("Diferença: {}\n", .{diff}) catch {};
